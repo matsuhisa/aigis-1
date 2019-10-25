@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "node-aigis": "^1.4.1",
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
   },
   "scripts": {
     "styleguide": "date && echo \"node-aigis --- \" && ./node_modules/.bin/aigis run -c ./aigis_config.yml"
