@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "node-aigis": "^1.4.1"
+    "node-aigis": "^1.4.1",
+    "webpack": "^4.41.2"
   }
 }
