@@ -1,3 +1,1 @@
-window.onload = funciton(){
-  console.log("start");
-}
+alert("foo");
