@@ -5,6 +5,8 @@
     "webpack-cli": "^3.3.9"
   },
   "scripts": {
-    "styleguide": "date && echo \"node-aigis --- \" && ./node_modules/.bin/aigis run -c ./aigis_config.yml"
+    "build": "date && node_modules/.bin/webpack --config ./webpack.config.js --bail -p",
+    "styleguide": "date && echo \"node-aigis --- \" && ./node_modules/.bin/aigis run -c ./aigis_config.yml",
+    "foo": "yarn styleguide && yarn build"
   }
 }
